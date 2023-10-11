@@ -1,0 +1,75 @@
+{
+        
+        "LMS" : [
+                        {
+                            "name" : "Organizational Progress Report",
+                            "chart" : "Bar Chart",
+                            "attributes" : {
+                                "rows" : [""] ,
+                                "columns" : ["gender" , "schooltype"] ,
+                                "filters" : {"subcity" :["Arada","Bole","Yeka","Kolfe"] 
+                                            ,"ownership": ["Private","Public","Aid"]
+                                        } 
+                                
+                            }
+                        },
+                        {
+                            "name" : "Organizational Progress Report",
+                            "chart" : "Line Chart",
+                            "attributes" : {
+                                "rows" : [""] ,
+                                "columns" : ["gender" , "schooltype"] ,
+                                "filters" : {"subcity" :["Arada","Bole","Yeka","Kolfe"] 
+                                            ,"ownership": ["Private","Public","Aid"]
+                                        } 
+                            }
+                        },
+                        {
+                            "name" : "Course Progress Report",
+                            "chart" : "Bar Chart",
+                            "attributes" : {
+                                "rows" : [""] ,
+                                "columns" : [""] ,
+                                "filters" :   []
+                            }
+                        },
+                        {
+                            "name" : "Course Progress Report",
+                            "chart" : "Line Chart",
+                            "attributes" : {
+                                "rows" : [""] ,
+                                "columns" : [""] ,
+                                "filters" :   []
+                            }
+                        },
+                        {
+                            "name" : "Learner Progress Report",
+                            "chart" : "Bar Chart",
+                            "attributes" : {
+                                "rows" : [""] ,
+                                "columns" : [""] ,
+                                "filters" :   []
+                            }
+                        },
+                        {
+                            "name" : "Learner Progress Report",
+                            "chart" : "Line Chart",
+                            "attributes" : {
+                                "rows" : [""] ,
+                                "columns" : [""] ,
+                                "filters" :   []
+                            }
+                        }
+        
+    ]
+
+
+
+    }
+        
+    
+    
+    
+    
+
+

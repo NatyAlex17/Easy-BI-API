@@ -1,0 +1,26 @@
+[
+    {
+        "type": "LMS",
+        "children": [{"name": "Organizational Progress Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Course Progress Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Learner Progress Report", "charts": ["Bar Chart", "Line Chart"]}]
+    },
+    {
+        "type": "SIMS",
+        "children": [{"name": "Attendance Report", "charts": ["Bar Chart", "Line Chart", "Stacked Chart"]}, 
+                   {"name": "User Activity Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Course Report", "charts": ["Bar Chart", "Line Chart"]}]
+    },
+    {
+        "type": "Digital Library",
+        "children": [{"name": "Course Review Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Assessment Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Assignment Report", "charts": ["Bar Chart", "Line Chart"]}]
+    },
+    {
+        "type": "Library Management Report",
+        "children": [{"name": "Source Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Course Progress Report", "charts": ["Bar Chart", "Line Chart"]}, 
+                   {"name": "Learner Progress Report", "charts": ["Bar Chart", "Line Chart"]}]
+    }
+]

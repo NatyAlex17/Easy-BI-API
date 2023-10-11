@@ -1,0 +1,22 @@
+{
+  "name": "sims-dashboard-api",
+  "version": "1.0.0",
+  "description": "an api to handle graph configuration for dashboards",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "nodemon ./Src/index.js",
+    "start": "node ./Src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "natnaelAlex17",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
