@@ -127,24 +127,24 @@
     "value": [
       {
         "chartTitle": "Chart 1",
-        "widgetName": "barchart",
+        "widgetName": "linechart",
         "product": "LMS",
-        "subProduct": "Organizational Progress Report",
+        "subProduct": "Course Progress Report",
         "description": "Attendance Report",
         "showValues": true,
         "api": "https://some-api-end-point1",
         "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
         "data": {
           "private": {
-            "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
             "data": [
-              { "schooltype": "pre-primary", "male": 1836, "female": 1872 },
-              { "schooltype": "primary", "male": 5823, "female": 3670 },
+              { "schooltype": "pre-primary", "male": 4836, "female": 4972 },
+              { "schooltype": "primary", "male": 5823, "female": 6670 },
               { "schooltype": "secondary", "male": 3820, "female": 3152 }
             ]
           },
           "public": {
-            "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
             "data": [
               { "schooltype": "pre-primary", "male": 2523, "female": 2656 },
               { "schooltype": "primary", "male": 5623, "female": 4852 },
@@ -153,7 +153,7 @@
           }
         },
         "query": {
-          "chart": "Bar Chart",
+          "chart": "Line Chart",
           "filters": { "subcity": "Arada" },
           "groupBy": "ownership",
           "columns": ["gender", "schooltype"]
@@ -261,7 +261,7 @@
           "private": {
             "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
             "data": [
-              { "schooltype": "pre-primary", "male": 1836, "female": 1872 },
+              { "schooltype": "pre-primary", "male": 1836, "female": 3872 },
               { "schooltype": "primary", "male": 5823, "female": 3670 },
               { "schooltype": "secondary", "male": 3820, "female": 3152 }
             ]
