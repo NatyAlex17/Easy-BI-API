@@ -14,7 +14,7 @@
                             }
                         },
                         {
-                            "name" : "Organizational Progress Report",
+                            "name" : "Course Progress Report",
                             "chart" : "Line Chart",
                             "attributes" : {
                                 "rows" : [""] ,
@@ -22,7 +22,7 @@
                                 "filters" : {"subcity" :["Arada","Bole","Yeka","Kolfe"] 
                                             ,"ownership": ["private","public","aid"]
                                         } 
-                            }
+                            } 
                         },
                         {
                             "name" : "Course Progress Report",
