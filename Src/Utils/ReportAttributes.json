@@ -8,7 +8,7 @@
                                 "rows" : [""] ,
                                 "columns" : ["gender" , "schooltype"] ,
                                 "filters" : {"subcity" :["Arada","Bole","Yeka","Kolfe"] 
-                                            ,"ownership": ["Private","Public","Aid"]
+                                            ,"ownership": ["private","public","aid"]
                                         } 
                                 
                             }
@@ -20,7 +20,7 @@
                                 "rows" : [""] ,
                                 "columns" : ["gender" , "schooltype"] ,
                                 "filters" : {"subcity" :["Arada","Bole","Yeka","Kolfe"] 
-                                            ,"ownership": ["Private","Public","Aid"]
+                                            ,"ownership": ["private","public","aid"]
                                         } 
                             }
                         },
