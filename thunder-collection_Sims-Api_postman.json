@@ -1,0 +1,140 @@
+{
+    "info": {
+        "_postman_id": "167fb2fa-9de3-4be7-9348-214a4b69d5ea",
+        "name": "Sims-Api",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "list-reports",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://196.189.45.25:5010/api/reports",
+                    "path": [
+                        "api",
+                        "reports"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "196",
+                        "189",
+                        "45",
+                        "25"
+                    ],
+                    "port": "5010"
+                }
+            }
+        },
+        {
+            "name": "list-attribs",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://196.189.45.25:5010/api/reports/attribs",
+                    "path": [
+                        "api",
+                        "reports",
+                        "attribs"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "196",
+                        "189",
+                        "45",
+                        "25"
+                    ],
+                    "port": "5010"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"reportTypeChildName\" : \"Organizational Progress Report\"  , \n  \"module\" : \"LMS\",\n  \"chart\" : \"Bar Chart\"\n}"
+                }
+            }
+        },
+        {
+            "name": "get-chart-data",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://196.189.45.25:5010/api/reports/data",
+                    "path": [
+                        "api",
+                        "reports",
+                        "data"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "196",
+                        "189",
+                        "45",
+                        "25"
+                    ],
+                    "port": "5010"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n    \"product\": \"LMS\",\n    \"subProduct\": \"Organizational Progress Report\",\n    \"chart\": \"Bar Chart\",\n    \"filters\" : { \"subcity\": \"Arada\",\"ownership\": \"private\"},\n    \"groupBy\": \"\",\n    \"columns\": [\"gender\", \"schooltype\"]\n}"
+                }
+            }
+        },
+        {
+            "name": "save-dashboard",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:5010/api/dashboards/save",
+                    "path": [
+                        "api",
+                        "dashboards",
+                        "save"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5010"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\"dashboard\":[{\"chartTitle\":\"Chart 1\",\"widgetName\":\"barchart\",\"product\":\"LMS\",\"subProduct\":\"Organizational Progress Report\",\"description\":\"Attendance Report\",\"showValues\":true,\"api\":\"https://some-api-end-point1\",\"gridPosition\":{\"x\":0,\"y\":0,\"w\":10,\"h\":9},\"data\":{\"private\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"bars\":[\"male\",\"female\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"male\":1836,\"female\":1872},{\"schooltype\":\"primary\",\"male\":5823,\"female\":3670},{\"schooltype\":\"secondary\",\"male\":3820,\"female\":3152}]},\"public\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"bars\":[\"male\",\"female\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"male\":2523,\"female\":2656},{\"schooltype\":\"primary\",\"male\":5623,\"female\":4852},{\"schooltype\":\"secondary\",\"male\":3526,\"female\":2895}]}},\"query\":{\"chart\":\"Bar Chart\",\"filters\":{\"subcity\":\"Arada\"},\"groupBy\":\"ownership\",\"columns\":[\"gender\",\"schooltype\"]}},{\"chartTitle\":\"Chart 2\",\"widgetName\":\"linechart\",\"product\":\"LMS\",\"subProduct\":\"Course Progress Report\",\"description\":\"Attendance Report\",\"showValues\":true,\"api\":\"https://some-api-end-point1\",\"gridPosition\":{\"x\":0,\"y\":0,\"w\":10,\"h\":9},\"data\":{\"All\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"lines\":[\"male\",\"female\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"male\":3359,\"female\":3728},{\"schooltype\":\"primary\",\"male\":10446,\"female\":7070},{\"schooltype\":\"secondary\",\"male\":6620,\"female\":5504}]},\"Arada\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"lines\":[\"male\",\"female\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"male\":1836,\"female\":1872},{\"schooltype\":\"primary\",\"male\":5823,\"female\":3670},{\"schooltype\":\"secondary\",\"male\":3820,\"female\":3152}]},\"Bole\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"lines\":[\"male\",\"female\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"male\":1523,\"female\":1856},{\"schooltype\":\"primary\",\"male\":4623,\"female\":3400},{\"schooltype\":\"secondary\",\"male\":2800,\"female\":2351}]}},\"query\":{\"chart\":\"Line Chart\",\"filters\":{\"ownership\":\"public\"},\"groupBy\":\"subcity\",\"columns\":[\"gender\",\"schooltype\"]}},{\"chartTitle\":\"Chart 3\",\"widgetName\":\"barchart\",\"product\":\"LMS\",\"subProduct\":\"Organizational Progress Report\",\"description\":\"Attendance Report\",\"showValues\":true,\"api\":\"https://some-api-end-point1\",\"gridPosition\":{\"x\":0,\"y\":0,\"w\":10,\"h\":9},\"data\":{\"All\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"bars\":[\"value\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"value\":10452},{\"schooltype\":\"primary\",\"value\":26354},{\"schooltype\":\"secondary\",\"value\":13452}]},\"private\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"bars\":[\"value\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"value\":4836},{\"schooltype\":\"primary\",\"value\":12452},{\"schooltype\":\"secondary\",\"value\":6856}]},\"public\":{\"dataKeys\":{\"xAxis\":\"schooltype\",\"bars\":[\"value\"]},\"data\":[{\"schooltype\":\"pre-primary\",\"value\":4836},{\"schooltype\":\"primary\",\"value\":12452},{\"schooltype\":\"secondary\",\"value\":6856}]}},\"query\":{\"chart\":\"Bar Chart\",\"filters\":{},\"groupBy\":\"ownership\",\"columns\":[\"schooltype\"]}}]}"
+                }
+            }
+        },
+        {
+            "name": "read-dashboard",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:5010/api/dashboards/read",
+                    "path": [
+                        "api",
+                        "dashboards",
+                        "read"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5010"
+                }
+            }
+        }
+    ]
+}
