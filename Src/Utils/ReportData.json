@@ -1,0 +1,2261 @@
+[
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12839
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 9794
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 10892
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 7958
+                    }
+                ]
+            }
+        }
+    },  
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "groupBy": "ownership",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },   
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }                     
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "groupBy": "ownership",
+        "columns": ["gender"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12839
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 9794
+                    }
+                ]
+            }            
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Arada",
+        "groupBy": "ownership",
+        "columns": ["schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 10892
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 7958
+                    }
+                ]
+            }            
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 14895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 12562
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }
+        }
+    },  
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "groupBy": "ownership",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            },   
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }   
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "groupBy": "ownership",
+        "columns": ["gender"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12839
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 9794
+                    }
+                ]
+            }            
+        } 
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "subcity": "Bole",
+        "groupBy": "ownership",
+        "columns": ["schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 10892
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 7958
+                    }
+                ]
+            }   
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "ownership": "private",
+        "columns": ["gender", "schooltype"],
+        "groupBy": "subcity",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 3359,
+                        "female": 3728
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 10446,
+                        "female": 7070
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 6620,
+                        "female": 5504
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }                        
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "ownership": "private",
+        "groupBy": "subcity",
+        "columns": ["gender"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 25455
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 26532
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },            
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }          
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "ownership": "private",
+        "groupBy": "subcity",
+        "columns": ["schooltype"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 10452
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 26354
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 13452
+                    }
+                ]
+            },            
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }            
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "ownership": "public",
+        "groupBy": "subcity",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 3359,
+                        "female": 3728
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 10446,
+                        "female": 7070
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 6620,
+                        "female": 5504
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }                        
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "ownership": "public",
+        "groupBy": "subcity",
+        "columns": ["gender"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 25455
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 26532
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },            
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }          
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "ownership": "public",
+        "groupBy": "subcity",
+        "columns": ["schooltype"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 10452
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 26354
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 13452
+                    }
+                ]
+            },            
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }            
+        }
+    },  
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "columns": ["gender", "schooltype"],
+        "groupBy": "ownership",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 3359,
+                        "female": 3728
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 10446,
+                        "female": 7070
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 6620,
+                        "female": 5504
+                    }
+                ]
+            },
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }                        
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "columns": ["gender"],
+        "groupBy": "ownership",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 25455
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 26532
+                    }
+                ]
+            },
+            "private": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },            
+            "public": {
+                "dataKeys": {"xAxis": "gender", "bars": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }          
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "chart": "Bar Chart",
+        "columns": ["schooltype"],
+        "groupBy": "ownership",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 10452
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 26354
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 13452
+                    }
+                ]
+            },            
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "bars": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }            
+        }
+    },
+
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12839
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 9794
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 10892
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 7958
+                    }
+                ]
+            }
+        }
+    },  
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "groupBy": "ownership",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },   
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }                     
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "groupBy": "ownership",
+        "columns": ["gender"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12839
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 9794
+                    }
+                ]
+            }            
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Arada",
+        "groupBy": "ownership",
+        "columns": ["schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 10892
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 7958
+                    }
+                ]
+            }            
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "ownership": "private",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["gender"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 14895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 12562
+                    }
+                ]
+            }
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "ownership": "public",
+        "groupBy": "",
+        "columns": ["schooltype"],
+        "data": {
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }
+        }
+    },  
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "groupBy": "ownership",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            },   
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 2523,
+                        "female": 2656
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5623,
+                        "female": 4852
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3526,
+                        "female": 2895
+                    }
+                ]
+            }   
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "groupBy": "ownership",
+        "columns": ["gender"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12839
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 9794
+                    }
+                ]
+            }            
+        } 
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "subcity": "Bole",
+        "groupBy": "ownership",
+        "columns": ["schooltype"],
+        "data": {
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 3736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 9493
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6978
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4736
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 10892
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 7958
+                    }
+                ]
+            }   
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "ownership": "private",
+        "columns": ["gender", "schooltype"],
+        "groupBy": "subcity",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 3359,
+                        "female": 3728
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 10446,
+                        "female": 7070
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 6620,
+                        "female": 5504
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }                        
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "ownership": "private",
+        "groupBy": "subcity",
+        "columns": ["gender"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 25455
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 26532
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },            
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }          
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "ownership": "private",
+        "groupBy": "subcity",
+        "columns": ["schooltype"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 10452
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 26354
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 13452
+                    }
+                ]
+            },            
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }            
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "ownership": "public",
+        "groupBy": "subcity",
+        "columns": ["gender", "schooltype"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 3359,
+                        "female": 3728
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 10446,
+                        "female": 7070
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 6620,
+                        "female": 5504
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }                        
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "ownership": "public",
+        "groupBy": "subcity",
+        "columns": ["gender"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 25455
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 26532
+                    }
+                ]
+            },
+            "Arada": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },            
+            "Bole": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }          
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "ownership": "public",
+        "groupBy": "subcity",
+        "columns": ["schooltype"],
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 10452
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 26354
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 13452
+                    }
+                ]
+            },            
+            "Arada": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            },
+            "Bole": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }            
+        }
+    },  
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "columns": ["gender", "schooltype"],
+        "groupBy": "ownership",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 3359,
+                        "female": 3728
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 10446,
+                        "female": 7070
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 6620,
+                        "female": 5504
+                    }
+                ]
+            },
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1836,
+                        "female": 1872
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 5823,
+                        "female": 3670
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 3820,
+                        "female": 3152
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["male", "female"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "male": 1523,
+                        "female": 1856
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "male": 4623,
+                        "female": 3400
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "male": 2800,
+                        "female": 2351
+                    }
+                ]
+            }                        
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "columns": ["gender"],
+        "groupBy": "ownership",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 25455
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 26532
+                    }
+                ]
+            },
+            "private": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 11519
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 8694
+                    }
+                ]
+            },            
+            "public": {
+                "dataKeys": {"xAxis": "gender", "lines": ["value"]},
+                "data": [
+                    {
+                        "gender": "Male",
+                        "value": 12895
+                    },                    
+                    {
+                        "gender": "Female",
+                        "value": 11562
+                    }
+                ]
+            }          
+        }
+    },
+    {   
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "chart": "Line Chart",
+        "columns": ["schooltype"],
+        "groupBy": "ownership",
+        "data": {
+            "All": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 10452
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 26354
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 13452
+                    }
+                ]
+            },            
+            "private": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            },
+            "public": {
+                "dataKeys": {"xAxis": "schooltype", "lines": ["value"]},
+                "data": [
+                    {
+                        "schooltype": "pre-primary",
+                        "value": 4836
+                    },                    
+                    {
+                        "schooltype": "primary",
+                        "value": 12452
+                    },
+                    {
+                        "schooltype": "secondary",
+                        "value": 6856
+                    }
+                ]
+            }            
+        }
+    }                        
+]
