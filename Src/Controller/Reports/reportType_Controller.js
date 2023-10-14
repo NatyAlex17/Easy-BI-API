@@ -7,6 +7,7 @@ export class ReportType_Controller
     {
         return async(req,res,next) => {
 
+            
             res.status(200).json(reports);
         }
     }

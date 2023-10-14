@@ -1,0 +1,371 @@
+[
+  {
+    "name": "Dashboard 1",
+    "value": [
+      {
+        "chartTitle": "Chart 1",
+        "widgetName": "barchart",
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "private": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1836, "female": 1872 },
+              { "schooltype": "primary", "male": 5823, "female": 3670 },
+              { "schooltype": "secondary", "male": 3820, "female": 3152 }
+            ]
+          },
+          "public": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 2523, "female": 2656 },
+              { "schooltype": "primary", "male": 5623, "female": 4852 },
+              { "schooltype": "secondary", "male": 3526, "female": 2895 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Bar Chart",
+          "filters": { "subcity": "Arada" },
+          "groupBy": "ownership",
+          "columns": ["gender", "schooltype"]
+        }
+      },
+      {
+        "chartTitle": "Chart 2",
+        "widgetName": "linechart",
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "All": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 3359, "female": 3728 },
+              { "schooltype": "primary", "male": 10446, "female": 7070 },
+              { "schooltype": "secondary", "male": 6620, "female": 5504 }
+            ]
+          },
+          "Arada": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1836, "female": 1872 },
+              { "schooltype": "primary", "male": 5823, "female": 3670 },
+              { "schooltype": "secondary", "male": 3820, "female": 3152 }
+            ]
+          },
+          "Bole": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1523, "female": 1856 },
+              { "schooltype": "primary", "male": 4623, "female": 3400 },
+              { "schooltype": "secondary", "male": 2800, "female": 2351 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Line Chart",
+          "filters": { "ownership": "public" },
+          "groupBy": "subcity",
+          "columns": ["gender", "schooltype"]
+        }
+      },
+      {
+        "chartTitle": "Chart 3",
+        "widgetName": "barchart",
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "All": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 10452 },
+              { "schooltype": "primary", "value": 26354 },
+              { "schooltype": "secondary", "value": 13452 }
+            ]
+          },
+          "private": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 4836 },
+              { "schooltype": "primary", "value": 12452 },
+              { "schooltype": "secondary", "value": 6856 }
+            ]
+          },
+          "public": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 4836 },
+              { "schooltype": "primary", "value": 12452 },
+              { "schooltype": "secondary", "value": 6856 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Bar Chart",
+          "filters": {},
+          "groupBy": "ownership",
+          "columns": ["schooltype"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dashboard 2",
+    "value": [
+      {
+        "chartTitle": "Chart 1",
+        "widgetName": "linechart",
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "private": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 4836, "female": 4972 },
+              { "schooltype": "primary", "male": 5823, "female": 6670 },
+              { "schooltype": "secondary", "male": 3820, "female": 3152 }
+            ]
+          },
+          "public": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 2523, "female": 2656 },
+              { "schooltype": "primary", "male": 5623, "female": 4852 },
+              { "schooltype": "secondary", "male": 3526, "female": 2895 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Line Chart",
+          "filters": { "subcity": "Arada" },
+          "groupBy": "ownership",
+          "columns": ["gender", "schooltype"]
+        }
+      },
+      {
+        "chartTitle": "Chart 2",
+        "widgetName": "linechart",
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "All": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 3359, "female": 3728 },
+              { "schooltype": "primary", "male": 10446, "female": 7070 },
+              { "schooltype": "secondary", "male": 6620, "female": 5504 }
+            ]
+          },
+          "Arada": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1836, "female": 1872 },
+              { "schooltype": "primary", "male": 5823, "female": 3670 },
+              { "schooltype": "secondary", "male": 3820, "female": 3152 }
+            ]
+          },
+          "Bole": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1523, "female": 1856 },
+              { "schooltype": "primary", "male": 4623, "female": 3400 },
+              { "schooltype": "secondary", "male": 2800, "female": 2351 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Line Chart",
+          "filters": { "ownership": "public" },
+          "groupBy": "subcity",
+          "columns": ["gender", "schooltype"]
+        }
+      },
+      {
+        "chartTitle": "Chart 3",
+        "widgetName": "barchart",
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "All": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 10452 },
+              { "schooltype": "primary", "value": 26354 },
+              { "schooltype": "secondary", "value": 13452 }
+            ]
+          },
+          "private": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 4836 },
+              { "schooltype": "primary", "value": 12452 },
+              { "schooltype": "secondary", "value": 6856 }
+            ]
+          },
+          "public": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 4836 },
+              { "schooltype": "primary", "value": 12452 },
+              { "schooltype": "secondary", "value": 6856 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Bar Chart",
+          "filters": {},
+          "groupBy": "ownership",
+          "columns": ["schooltype"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dashboard 3",
+    "value": [
+      {
+        "chartTitle": "Chart 1",
+        "widgetName": "barchart",
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "private": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1836, "female": 3872 },
+              { "schooltype": "primary", "male": 5823, "female": 3670 },
+              { "schooltype": "secondary", "male": 3820, "female": 3152 }
+            ]
+          },
+          "public": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 2523, "female": 2656 },
+              { "schooltype": "primary", "male": 5623, "female": 4852 },
+              { "schooltype": "secondary", "male": 3526, "female": 2895 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Bar Chart",
+          "filters": { "subcity": "Arada" },
+          "groupBy": "ownership",
+          "columns": ["gender", "schooltype"]
+        }
+      },
+      {
+        "chartTitle": "Chart 2",
+        "widgetName": "linechart",
+        "product": "LMS",
+        "subProduct": "Course Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "All": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 3359, "female": 3728 },
+              { "schooltype": "primary", "male": 10446, "female": 7070 },
+              { "schooltype": "secondary", "male": 6620, "female": 5504 }
+            ]
+          },
+          "Arada": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1836, "female": 1872 },
+              { "schooltype": "primary", "male": 5823, "female": 3670 },
+              { "schooltype": "secondary", "male": 3820, "female": 3152 }
+            ]
+          },
+          "Bole": {
+            "dataKeys": { "xAxis": "schooltype", "lines": ["male", "female"] },
+            "data": [
+              { "schooltype": "pre-primary", "male": 1523, "female": 1856 },
+              { "schooltype": "primary", "male": 4623, "female": 3400 },
+              { "schooltype": "secondary", "male": 2800, "female": 2351 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Line Chart",
+          "filters": { "ownership": "public" },
+          "groupBy": "subcity",
+          "columns": ["gender", "schooltype"]
+        }
+      },
+      {
+        "chartTitle": "Chart 3",
+        "widgetName": "barchart",
+        "product": "LMS",
+        "subProduct": "Organizational Progress Report",
+        "description": "Attendance Report",
+        "showValues": true,
+        "api": "https://some-api-end-point1",
+        "gridPosition": { "x": 0, "y": 0, "w": 10, "h": 9 },
+        "data": {
+          "All": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 10452 },
+              { "schooltype": "primary", "value": 26354 },
+              { "schooltype": "secondary", "value": 13452 }
+            ]
+          },
+          "private": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 4836 },
+              { "schooltype": "primary", "value": 12452 },
+              { "schooltype": "secondary", "value": 6856 }
+            ]
+          },
+          "public": {
+            "dataKeys": { "xAxis": "schooltype", "bars": ["value"] },
+            "data": [
+              { "schooltype": "pre-primary", "value": 4836 },
+              { "schooltype": "primary", "value": 12452 },
+              { "schooltype": "secondary", "value": 6856 }
+            ]
+          }
+        },
+        "query": {
+          "chart": "Bar Chart",
+          "filters": {},
+          "groupBy": "ownership",
+          "columns": ["schooltype"]
+        }
+      }
+    ]
+  }
+]
