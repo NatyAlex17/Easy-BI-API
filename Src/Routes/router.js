@@ -17,5 +17,7 @@ router.post("/dashboards/save",DashBoard_Controller.SaveDashboard());
 
 router.get("/dashboards/read",DashBoard_Controller.ReadDashboard());
 
+router.get("/dashboards/list", DashBoard_Controller.ReadDashboardList());
+
 
 export {router};

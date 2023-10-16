@@ -71,4 +71,37 @@ export class DashBoard_Controller
            
         }
     }
+    static ReadDashboardList(){
+        return async(req, res, next) => {
+            try{
+                fs.readFile("./Src/Utils/SavedDashboards.json", {encoding: "utf8"})
+                    .then((data) => {
+                            const dashboardList = (JSON.parse(data)).map(item => {
+                                return {
+                                    name: item.name,
+                                    value: item.value.map((chart) => {
+                                        return {
+                                            chartTitle: chart.chartTitle,
+                                            widgetName: chart.widgetName,
+                                            product: chart.product,
+                                            subProduct: chart.subProduct,
+                                            api: chart.api,
+                                            gridPosition: chart.gridPosition,
+                                            query: chart.query
+                                        };
+                                    })
+                                };
+                            });
+                            res.status(200).json({result: dashboardList});
+                        }
+                    ).catch((err) => {
+                        console.log("Error on reading file: ", err);
+                        res.status(404).json({result: [], error: err});
+                    })
+            } catch(error){
+                console.log("Error on getting list of dashboards: ", error);
+                res.status(500).json({result: [], error: error});
+            }
+        }
+    }
 }
