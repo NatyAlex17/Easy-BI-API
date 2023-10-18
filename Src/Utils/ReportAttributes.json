@@ -7,7 +7,7 @@
                             "attributes" : {
                                 "rows" : [""] ,
                                 "columns" : ["gender" , "schooltype"] ,
-                                "filters" : {"subcity" :["Arada","Bole","Yeka","Kolfe"] 
+                                "filters" : {"subcity" :{"value": ["Arada","Bole","Yeka","Kolfe"], "opType": "equality" }
                                             ,"ownership": ["private","public","aid"]
                                         } 
                                 
