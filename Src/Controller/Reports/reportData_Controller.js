@@ -1,5 +1,3 @@
-import * as chartData from "../../Utils/ReportData.json" assert {type : "json"}
-
 export class ReportData_Controller
 {
     static ReadData()
@@ -9,8 +7,10 @@ export class ReportData_Controller
            const {product  , subProduct  , chart  ,  filters   ,  columns  , groupBy  } = req.body;
 
            console.log("data Configurations" , product  , subProduct  , chart  ,  filters   ,  columns  , groupBy  )
+
+           const data = await import("../../Utils/ReportData.json",{assert:{type:"json"}});
            
-           const chartCandidates = chartData.default.filter(chartCandidate => chartCandidate.product === product && chartCandidate.subProduct === subProduct && chartCandidate.chart === chart && chartCandidate.groupBy === groupBy && (chartCandidate.columns.length === columns.length && columns.every(item => chartCandidate.columns.includes(item) )) );
+           const chartCandidates = data.default.filter(chartCandidate => chartCandidate.product === product && chartCandidate.subProduct === subProduct && chartCandidate.chart === chart && chartCandidate.groupBy === groupBy && (chartCandidate.columns.length === columns.length && columns.every(item => chartCandidate.columns.includes(item) )) );
            
            //console.log("candidates" , chartCandidates);
 
